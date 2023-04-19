@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&family=Kanit:wght@700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #47A6DC 57%, rgba(27, 32, 30, 0.86) 43%);
+}
+
+form {
+    background: linear-gradient(to bottom, #16517B 69%, #1E1A36 100%);
+    width: 304px;
+    height: 506px;
+    border-radius: 19px;
+    display: grid;
+    margin-left: 15%;
+    margin-top: 35%;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 20px; 
+    display: grid;
+    justify-content: center; 
+}
+
+.text1, text {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+}
+
+.text1 {
+    grid-row: 3;
+    grid-column: 1;
+    background: #DFDADA;
+    border-radius: 6px;
+    width: 258px;
+    height: 41px;
+    border: none;
+    outline: none;
+}
+
+.conteiner {
+    display: grid;
+    justify-content: center;
+}
+
+.text {
+    margin-left: 5%;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+}
+
+.checkbox {
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 3%;
+}
+
+.checkbox-conteiner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    color: black;
+}
+
+.enivar {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+button {
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    background: #DFDADA;
+    width: 131px;
+    height: 37px;
+    border-radius: 6px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: silver;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+section {
+    width: 357px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 30%;
+    margin-top: 50%; 
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+}
+   
+h1 {
+    padding-bottom: 10%;
+}
+
+svg {
+    margin-top: 10%;
+    padding-right: 7%;
+}
+
+svg:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
